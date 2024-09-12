@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Poppins:wght@100;500;600;800;900&family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 /* GLOBAL CONFIG RESET */
 * {
@@ -38,12 +38,12 @@ body {
 }
 
 .container .box span {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
+  background: linear-gradient(90deg, rgba(104, 63, 63, 0.1), rgba(55, 35, 35, 0.5) 90%, transparent);
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
-  color: #fff;
-  font-size: 3.5em;
+  color: #f0f0f0;
+  font-size: 4em;
   white-space: nowrap;
   font-weight: bold;
   padding: 0px 10px;
@@ -57,11 +57,11 @@ body {
 }
 
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: #0e14b7;
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #f56200;
 }
 
 @keyframes animate {
